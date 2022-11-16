@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record id="incident_status_I" model="ats.security.incidents.status">
+        <field name="name">Novo</field>
+    </record>
+
+    <record id="incident_status_II" model="ats.security.incidents.status">
+        <field name="name">Em progresso</field>
+    </record>
+
+    <record id="incident_status_III" model="ats.security.incidents.status">
+        <field name="name">Pendente</field>
+    </record>
+
+    <record id="incident_status_IV" model="ats.security.incidents.status">
+        <field name="name">Concluído</field>
+    </record>
+
+    <record id="incident_status_V" model="ats.security.incidents.status">
+        <field name="name">Cancelado</field>
+    </record>
+
+</odoo>

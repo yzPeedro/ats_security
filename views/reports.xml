@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="reports_page" name="Relatórios">
+        <t t-call="ks_curved_backend_theme.layout">
+            <div class="container">
+                <h1>Relatórios</h1>
+            </div>
+        </t>
+    </template>
+</odoo>

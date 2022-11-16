@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ats_security_incidents,ats.security.incidents,model_ats_security_incidents,,1,1,1,1
+access_ats_security_incidents_levels,ats.security.incidents.levels,model_ats_security_incidents_levels,,1,1,1,1
+access_ats_security_incidents_status,ats.security.incidents.status,model_ats_security_incidents_status,,1,1,1,1
+access_ats_security_incidents_types,ats.security.incidents.types,model_ats_security_incidents_types,,1,1,1,1
+access_ats_security_reference,ats.security.reference,model_ats_security_reference,,1,1,1,1

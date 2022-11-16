@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="security_incidents_kanban" model="ir.ui.view">
+        <field name="name">ats.security.incidents.kanban</field>
+        <field name="model">ats.security.incidents</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_small_column">
+                <field name="id"/>
+                <field name="funcionario"/>
+                <field name="tipo_incidente"/>
+                <field name="empresa"/>
+                <field name="setor"/>
+                <field name="relato"/>
+                <field name="nivel"/>
+                <field name="data"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="oe_kanban_details">
+                                <ul>
+                                    <li>
+                                        <strong>Id: </strong>
+                                        <field name="id"/>
+                                        <br/><br/>
+                                    </li>
+
+                                    <li>
+                                        <strong>Funcionário: </strong>
+                                        <field name="funcionario"/>
+                                    </li>
+
+                                    <li>
+                                        <strong>Relato: </strong>
+                                        <field name="relato"/>
+                                    </li>
+
+                                    <li>
+                                        <strong>Data do ocorrido: </strong>
+                                        <field name="data"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="security_incidents_tree" model="ir.ui.view">
+        <field name="name">ats.security.incidents.tree</field>
+        <field name="model">ats.security.incidents</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="funcionario"/>
+                <field name="tipo_incidente"/>
+                <field name="empresa"/>
+                <field name="setor"/>
+                <field name="relato"/>
+                <field name="nivel"/>
+                <field name="data"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="security_incidents_form" model="ir.ui.view">
+        <field name="name">incidents.security.form</field>
+        <field name="model">ats.security.incidents</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="data" />
+                        <field name="setor" />
+                        <field name="tipo_incidente" />
+                        <field name="empresa" />
+                        <field name="funcionario" />
+                    </group>
+                    <group>
+                        <group>
+                            <field name="relato" widget="html" options="{'collaborative': true}" />
+                        </group>
+                        <group>
+                            <field name="nivel" />
+                            <field name="responsavel" />
+                            <field name="acao" />
+                            <field name="status" />
+                            <field
+                                name="justificativa_status"
+                                attrs="{'invisible':[('status', '==', 1)]}"
+                            />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="security_incidents_action" model="ir.actions.act_window">
+        <field name="name">Incidentes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">ats.security.incidents</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Registre um incidente!
+            </p>
+        </field>
+    </record>
+
+</odoo>

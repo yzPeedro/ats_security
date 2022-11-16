@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="security_incidents_levels_tree" model="ir.ui.view">
+        <field name="name">ats.security.levels.tree</field>
+        <field name="model">ats.security.incidents.levels</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="security_incidents_levels_action" model="ir.actions.act_window">
+        <field name="name">Níveis de Incidentes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">ats.security.incidents.levels</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Registre um nível de incidente!
+            </p>
+        </field>
+    </record>
+
+</odoo>

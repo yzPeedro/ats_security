@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--  default items  -->
+    <menuitem
+            id="ats_security_root"
+            name="Segurança"
+            action="security_incidents_action"
+            parent="mgmtsystem.menu_mgmtsystem_root"
+            sequence="110"
+    />
+
+<!--    <menuitem-->
+<!--            id="ats_security_reports"-->
+<!--            name="Relatórios"-->
+<!--            action="ats_security.security_reports_template"-->
+<!--            parent="ats_security_root"-->
+<!--            sequence="0"-->
+<!--    />-->
+
+    <menuitem
+            id="ats_security_incident"
+            name="Registros de Incidentes"
+            action="security_incidents_action"
+            parent="ats_security_root"
+            sequence="150"
+    />
+
+    <menuitem
+            id="ats_security_reference"
+            name="Registro de Referência"
+            action="security_reference_action"
+            parent="ats_security_root"
+            sequence="200"
+    />
+
+    <!-- settings itens -->
+    <menuitem
+            id="ats_security_settings"
+            name="Configurações"
+            parent="ats_security_root"
+            action="security_incidents_types_action"
+            sequence="210"
+    />
+
+    <menuitem
+            id="ats_security_incidents_types"
+            name="Tipos de Incidentes"
+            parent="ats_security_settings"
+            action="security_incidents_types_action"
+            sequence="0"
+    />
+
+    <menuitem
+            id="ats_security_incidents_levels"
+            name="Níveis de Incidentes"
+            parent="ats_security_settings"
+            action="security_incidents_levels_action"
+            sequence="1"
+    />
+
+    <menuitem
+            id="ats_security_incidents_status"
+            name="Status de Incidentes"
+            parent="ats_security_settings"
+            action="security_incidents_status_action"
+            sequence="2"
+    />
+
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record id="incident_level_I" model="ats.security.incidents.levels">
+        <field name="name">I</field>
+    </record>
+
+    <record id="incident_level_II" model="ats.security.incidents.levels">
+        <field name="name">II</field>
+    </record>
+
+    <record id="incident_level_III" model="ats.security.incidents.levels">
+        <field name="name">III</field>
+    </record>
+
+    <record id="incident_level_IV" model="ats.security.incidents.levels">
+        <field name="name">IV</field>
+    </record>
+
+    <record id="incident_level_V" model="ats.security.incidents.levels">
+        <field name="name">V</field>
+    </record>
+
+</odoo>
