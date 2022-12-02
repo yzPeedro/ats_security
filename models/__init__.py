@@ -3,3 +3,5 @@ from . import ats_security_reference
 from . import ats_security_incidents_types
 from . import ats_security_incidents_levels
 from . import ats_security_incidents_status
+from . import ats_green_cross_dashboard
+

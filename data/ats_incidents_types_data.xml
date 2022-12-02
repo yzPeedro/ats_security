@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record id="incident_type_I" model="ats.security.incidents.types">
+        <field name="name">Personal Accident</field>
+    </record>
+
+    <record id="incident_type_II" model="ats.security.incidents.types">
+        <field name="name">Property Accident</field>
+    </record>
+
+    <record id="incident_type_III" model="ats.security.incidents.types">
+        <field name="name">Environmental Accident</field>
+    </record>
+
+</odoo>

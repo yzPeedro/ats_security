@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="reports_page" name="Relatórios">
-        <t t-call="ks_curved_backend_theme.layout">
-            <div class="container">
-                <h1>Relatórios</h1>
-            </div>
-        </t>
-    </template>
+    <data>
+        <record id="gc_action_dashboard" model="ir.actions.client">
+            <field name="name">Dashboard</field>
+            <field name="tag">gc_dashboard</field>
+        </record>
+
+        <menuitem id="menu_gc_dashboard"
+                  name="Dashboard"
+                  action="gc_action_dashboard"
+                  parent="mgmtsystem.menu_mgmtsystem_root"
+                  sequence="1"/>
+    </data>
 </odoo>

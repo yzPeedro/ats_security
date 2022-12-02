@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record id="1" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">bday1</field></record>
+    <record id="2" model="ats.security.model.cv"><field name="order">1</field><field name="div_id">1</field></record>
+    <record id="3" model="ats.security.model.cv"><field name="order">2</field><field name="div_id">2</field></record>
+    <record id="4" model="ats.security.model.cv"><field name="order">3</field><field name="div_id">3</field></record>
+    <record id="5" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">bday2</field></record>
+    <record id="6" model="ats.security.model.cv"><field name="order">4</field><field name="div_id">4</field></record>
+    <record id="7" model="ats.security.model.cv"><field name="order">5</field><field name="div_id">5</field></record>
+    <record id="8" model="ats.security.model.cv"><field name="order">6</field><field name="div_id">6</field></record>
+    <record id="9" model="ats.security.model.cv"><field name="order">7</field><field name="div_id">7</field></record>
+    <record id="10" model="ats.security.model.cv"><field name="order">8</field><field name="div_id">8</field></record>
+    <record id="11" model="ats.security.model.cv"><field name="order">9</field><field name="div_id">9</field></record>
+    <record id="12" model="ats.security.model.cv"><field name="order">10</field><field name="div_id">10</field></record>
+    <record id="13" model="ats.security.model.cv"><field name="order">11</field><field name="div_id">11</field></record>
+    <record id="14" model="ats.security.model.cv"><field name="order">12</field><field name="div_id">12</field></record>
+    <record id="15" model="ats.security.model.cv"><field name="order">13</field><field name="div_id">13</field></record>
+    <record id="16" model="ats.security.model.cv"><field name="order">14</field><field name="div_id">14</field></record>
+    <record id="17" model="ats.security.model.cv"><field name="order">15</field><field name="div_id">15</field></record>
+    <record id="18" model="ats.security.model.cv"><field name="order">16</field><field name="div_id">16</field></record>
+    <record id="19" model="ats.security.model.cv"><field name="order">17</field><field name="div_id">17</field></record>
+    <record id="20" model="ats.security.model.cv"><field name="order">18</field><field name="div_id">18</field></record>
+    <record id="21" model="ats.security.model.cv"><field name="order">19</field><field name="div_id">19</field></record>
+    <record id="22" model="ats.security.model.cv"><field name="order">20</field><field name="div_id">20</field></record>
+    <record id="23" model="ats.security.model.cv"><field name="order">21</field><field name="div_id">21</field></record>
+    <record id="24" model="ats.security.model.cv"><field name="order">22</field><field name="div_id">22</field></record>
+    <record id="25" model="ats.security.model.cv"><field name="order">23</field><field name="div_id">23</field></record>
+    <record id="26" model="ats.security.model.cv"><field name="order">24</field><field name="div_id">24</field></record>
+    <record id="27" model="ats.security.model.cv"><field name="order">25</field><field name="div_id">25</field></record>
+    <record id="28" model="ats.security.model.cv"><field name="order">26</field><field name="div_id">26</field></record>
+    <record id="29" model="ats.security.model.cv"><field name="order">27</field><field name="div_id">27</field></record>
+    <record id="30" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">bday3</field></record>
+    <record id="31" model="ats.security.model.cv"><field name="order">28</field><field name="div_id">28</field></record>
+    <record id="32" model="ats.security.model.cv"><field name="order">29</field><field name="div_id">29</field></record>
+    <record id="33" model="ats.security.model.cv"><field name="order">30</field><field name="div_id">30</field></record>
+    <record id="34" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">31_0</field></record>
+    <record id="35" model="ats.security.model.cv"><field name="order">31</field><field name="div_id">31</field></record>
+    <record id="36" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">31_1</field></record>
+    <record id="37" model="ats.security.model.cv"><field name="order"> </field><field name="div_id">bday4</field></record>
+
+
+</odoo>

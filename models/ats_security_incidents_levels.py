@@ -3,9 +3,9 @@ from odoo import fields, models
 
 class AtsSecurityIncidentsLevels(models.Model):
     _name = "ats.security.incidents.levels"
-    _description = "Níveis de incidentes"
+    _description = "Incident levels"
 
-    name = fields.Char(string="Nível de incidente", required=True)
+    name = fields.Char(string="Incident Level", required=True)
 
 
 
